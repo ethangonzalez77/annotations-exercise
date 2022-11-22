@@ -4,7 +4,9 @@
 import java.util.ArrayList;
 import java.util.List;
 
+@SuppressWarnings("unchecked")
 public class Author extends Person {
+    @SuppressWarnings("rawtypes")
     private List books;
 
     public Author(String firstName, String lastName) {
